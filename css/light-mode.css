@@ -1,0 +1,588 @@
+/* Light Mode Theme Overrides for Portfolio */
+body {
+    background: #f8f9fa !important;
+    color: #333 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50 !important;
+}
+
+/* Navbar Styling */
+.site-navbar {
+    background: #e9ecef !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.site-navbar .navbar-nav > li > a {
+    color: #333 !important;
+}
+
+.site-navbar.bg-light .navbar-nav > li > a {
+    color: #333 !important;
+}
+
+.site-navbar .navbar-nav > li > a:hover {
+    color: #8490ff !important;
+}
+
+.site-navbar .navbar-nav > li > a.active,
+.site-navbar .navbar-nav > li.active > a,
+.site-navbar .navbar-nav.active > a {
+    color: #8490ff !important;
+    background-color: transparent !important;
+}
+
+.site-navbar.scrolled {
+    background: #e9ecef !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.site-navbar.scrolled .navbar-nav > li > a {
+    color: #333 !important;
+}
+
+.site-navbar.scrolled .navbar-nav > li > a.active,
+.site-navbar.scrolled .navbar-nav > li.active > a {
+    color: #8490ff !important;
+    background-color: transparent !important;
+}
+
+.site-navbar.scrolled.bg-light {
+    background: #e9ecef !important;
+}
+
+.site-navbar.scrolled .navbar-brand {
+    color: #333 !important;
+    border-color: #333 !important;
+}
+
+/* Override Bootstrap navbar-light active state */
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #8490ff !important;
+    background-color: transparent !important;
+}
+
+@media (max-width: 991.98px) {
+    .site-navbar.bg-light {
+        background: #e9ecef !important;
+    }
+    
+    .site-navbar.bg-light .navbar-brand {
+        color: #333 !important;
+        border-color: #333 !important;
+    }
+}
+
+/* Site Sections */
+.site-section {
+    background: #f8f9fa !important;
+}
+
+.section-heading h2,
+.section-heading h3 {
+    color: #2c3e50 !important;
+}
+
+/* About Section */
+#section-about.site-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0 20px 0 !important;
+    margin: 0;
+    position: relative;
+}
+
+#section-about img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#section-about .col-lg-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+
+#section-about .col-lg-7 {
+    padding-left: 50px;
+}
+
+#section-about .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+#section-about .row {
+    margin: 0;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    min-height: auto;
+}
+
+.about-passion,
+.about-ask {
+    color: #555 !important;
+}
+
+.lead {
+    color: #555 !important;
+}
+
+/* Portfolio Section */
+.filters ul li {
+    color: #555 !important;
+}
+
+.filters ul li:hover,
+.filters ul li.active {
+    color: #8490ff !important;
+}
+
+.portfolio-area .filters ul li {
+    color: #555 !important;
+}
+
+.portfolio-area .filters ul li.active {
+    color: #8490ff !important;
+}
+
+.portfolio-area .filters ul li:after {
+    background: #8490ff !important;
+}
+
+.single-portfolio .p-inner .cat {
+    color: #666 !important;
+}
+
+/* Resume Section */
+.resume-item {
+    background: #e9ecef !important;
+    border: 1px solid #d0d0d0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.resume-item h3 {
+    color: #2c3e50 !important;
+    font-weight: 600 !important;
+}
+
+.resume-item .date {
+    color: #555 !important;
+}
+
+.resume-item .school {
+    color: #666 !important;
+}
+
+.resume-item p {
+    color: #555 !important;
+}
+
+.resume-item ul {
+    color: #555 !important;
+}
+
+.resume-item ul li {
+    color: #555 !important;
+}
+
+.exp h3 {
+    color: #2c3e50 !important;
+}
+
+.exp a {
+    color: #8490ff !important;
+}
+
+.expc {
+    color: #555 !important;
+}
+
+.exps {
+    color: #555 !important;
+}
+
+.resume-heading {
+    color: #2c3e50 !important;
+}
+
+/* Research Section */
+#section-research {
+    background: #f8f9fa !important;
+}
+
+#section-research h2,
+#section-research h3 {
+    color: #2c3e50 !important;
+}
+
+#section-research p {
+    color: #555 !important;
+}
+
+#section-research a {
+    color: #8490ff !important;
+}
+
+#section-research .date {
+    color: #555 !important;
+}
+
+#section-research .school {
+    color: #666 !important;
+}
+
+/* Skills Section (github-info) */
+.github-info {
+    background: #f8f9fa !important;
+}
+
+.github-info h3 {
+    color: #2c3e50 !important;
+}
+
+.github-info p {
+    color: #555 !important;
+}
+
+/* Blog/Certifications Section */
+.blog-entry {
+    background: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid #e0e0e0 !important;
+}
+
+.blog-entry:hover,
+.blog-entry:active,
+.blog-entry:focus {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+.blog-entry .blog-entry-text h3 a {
+    color: #2c3e50 !important;
+}
+
+.blog-entry .blog-entry-text h3 a:hover {
+    color: #8490ff !important;
+}
+
+.blog-entry .blog-entry-text p {
+    color: #555 !important;
+}
+
+.blog-entry .meta {
+    color: #666 !important;
+}
+
+.blog-entry .meta a {
+    color: #666 !important;
+}
+
+.blog-entry .meta a:hover {
+    color: #8490ff !important;
+}
+
+/* Contact Section */
+#section-contact {
+    background: #f8f9fa !important;
+}
+
+#section-contact h2,
+#section-contact h3 {
+    color: #2c3e50 !important;
+}
+
+.site-contact-details li {
+    color: #555 !important;
+    margin-bottom: 25px !important;
+    font-size: 16px;
+}
+
+.site-contact-details .text-uppercase {
+    color: #2c3e50 !important;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.site-contact-details a {
+    color: #28a745 !important;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.site-contact-details a:hover {
+    color: #218838 !important;
+    text-decoration: underline;
+}
+
+/* Footer */
+.site-footer {
+    background: #e9ecef !important;
+    color: #555 !important;
+}
+
+.site-footer p {
+    color: #555 !important;
+}
+
+.site-footer a {
+    color: #8490ff !important;
+}
+
+.site-footer .social-item {
+    background: #d0d0d0 !important;
+    color: #555 !important;
+}
+
+.site-footer .social-item:hover {
+    background: #8490ff !important;
+    color: #fff !important;
+}
+
+.site-footer .btn-dark {
+    background-color: #2c3e50 !important;
+    color: #fff !important;
+    border-color: #2c3e50 !important;
+}
+
+.site-footer .btn-dark:hover {
+    background-color: #1a252f !important;
+    border-color: #1a252f !important;
+}
+
+/* Buttons */
+.btn-outline-info {
+    border-color: #17a2b8 !important;
+    color: #17a2b8 !important;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8 !important;
+    color: #fff !important;
+}
+
+.btn-outline-success {
+    border-color: #28a745 !important;
+    color: #28a745 !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745 !important;
+    color: #fff !important;
+}
+
+.btn-outline-primary {
+    border-color: #8490ff !important;
+    color: #8490ff !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #8490ff !important;
+    color: #fff !important;
+}
+
+.btn-success {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: #fff !important;
+}
+
+.btn-success:hover {
+    background-color: #218838 !important;
+    border-color: #218838 !important;
+}
+
+/* Links */
+a {
+    color: #8490ff !important;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #62bdfc !important;
+    text-decoration: none;
+}
+
+/* Form Controls */
+.form-control {
+    background: #fff !important;
+    color: #333 !important;
+    border: 1px solid #d0d0d0 !important;
+}
+
+.form-control:active,
+.form-control:focus {
+    background: #fff !important;
+    border-color: #8490ff !important;
+    color: #333 !important;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #999 !important;
+}
+
+.form-control::-moz-placeholder {
+    color: #999 !important;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #999 !important;
+}
+
+.form-control:-moz-placeholder {
+    color: #999 !important;
+}
+
+/* Table Styling */
+table, th, td {
+    border: 1px solid #d0d0d0 !important;
+    color: #333 !important;
+}
+
+th {
+    background-color: #e9ecef !important;
+}
+
+/* Title MB */
+.title-mb h2 {
+    color: #2c3e50 !important;
+}
+
+/* Additional Elements */
+.letter-spacing {
+    color: #666 !important;
+}
+
+.calender {
+    background: #fff !important;
+    border: 1px solid #d0d0d0 !important;
+}
+
+.logo {
+    background-color: #f8f9fa !important;
+}
+
+/* Block 47 (Testimonials) */
+.block-47 .block-47-quote {
+    background: #ffffff !important;
+    border: 1px solid #e0e0e0 !important;
+}
+
+.block-47 .block-47-quote:before {
+    border-color: transparent #ffffff transparent transparent !important;
+}
+
+.block-47 .block-47-quote .block-47-quote-author {
+    color: #666 !important;
+}
+
+/* Award Icons */
+.award-icon {
+    color: #8490ff !important;
+}
+
+/* Portfolio Item Colors - Keep vibrant colors but ensure visibility */
+.machine_learning h4 {
+    color: #e7305b !important;
+}
+
+.coding h4 {
+    color: #fe6845 !important;
+}
+
+.django h4 {
+    color: #d3de32 !important;
+}
+
+.pygame h4 {
+    color: #eebb4d !important;
+}
+
+/* Mobile Responsive for About Section */
+@media (max-width: 768px) {
+    #section-about.site-section {
+        min-height: 100vh;
+        padding: 80px 0 20px 0 !important;
+    }
+
+    #section-about .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        min-height: 100vh;
+    }
+
+    #section-about .row {
+        min-height: auto;
+    }
+
+    #section-about img {
+        max-width: 250px;
+    }
+
+    #section-about .col-lg-5 {
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    #section-about .col-lg-7 {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #section-about.site-section {
+        min-height: 100vh;
+        padding: 60px 0 20px 0 !important;
+    }
+
+    #section-about .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        min-height: 100vh;
+    }
+
+    #section-about .row {
+        min-height: auto;
+    }
+
+    #section-about img {
+        max-width: 200px;
+    }
+
+    #section-about .col-lg-5 {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    #section-about .col-lg-7 {
+        padding-left: 15px;
+    }
+}
+
+/* Selection */
+::selection {
+    background: #8490ff !important;
+    color: #fff !important;
+}
+
+::-moz-selection {
+    background: #8490ff !important;
+    color: #fff !important;
+}
