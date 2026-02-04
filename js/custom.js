@@ -293,28 +293,35 @@
 
 
 	var portfolioMasonry = function() {
- $('.filters ul li').click(function(){
-        $('.filters ul li').removeClass('active');
-        $(this).addClass('active');
-        
-        var data = $(this).attr('data-filter');
-        $grid.isotope({
-          filter: data
-        })
-      });
+		// Initialize: show all projects by default
+		if(document.getElementById("section-portfolio")){
+			$('.project-card').show();
+		}
 
-
-      if(document.getElementById("section-portfolio")){
-            var $grid = $(".grid").isotope({
-              itemSelector: ".all",
-              percentPosition: true,
-              masonry: {
-                columnWidth: ".all"
-              }
-            })
-      };
-
-
+		$('.filters ul li').click(function(){
+			$('.filters ul li').removeClass('active');
+			$(this).addClass('active');
+			
+			var filterValue = $(this).attr('data-filter');
+			
+			// If "All" is selected (filter is "*"), show all projects
+			if (filterValue === '*') {
+				$('.project-card').fadeIn(300);
+			} else {
+				// Remove the dot from the filter class name
+				var filterClass = filterValue.replace('.', '');
+				
+				// Hide all projects first
+				$('.project-card').hide();
+				
+				// Show projects that have the filter class
+				$('.project-card').each(function() {
+					if ($(this).hasClass(filterClass)) {
+						$(this).fadeIn(300);
+					}
+				});
+			}
+		});
 	};
 
 
